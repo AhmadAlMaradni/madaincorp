@@ -1,0 +1,92 @@
+* {
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    font-family:arial;
+  }
+
+  body{
+    background:#4c4c4c;
+  }
+
+  /* main container for the list */
+  .container{
+    background:#fff;
+    width:500px;
+    margin:50px auto;
+    
+  }
+  
+  .container ul li {
+   padding:20px;
+   border-bottom:1px solid #ccc;
+  }
+  
+  ul li h1 {
+    margin-left:70px;
+    margin-top:-50px;
+    font-size:17px;
+    font-weight:550;
+  }
+
+  ul li p {
+    margin-left:70px;
+    margin-top:0px;
+    color: #0034a1;
+  }
+
+  ul li:hover {
+    background:gray;
+  }
+
+  #circleName {
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background: #000;
+  }
+
+  .container .header{
+    width:100%;
+    background:black;
+    height:70px; 
+    text-align: center;
+  }
+
+  /* category button style */
+  .categoryBtn {
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    padding: 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 5px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgb(255 255 255 / 20%), 0 6px 20px 0 rgb(100 100 100);
+    border-radius: 27px;
+    border: solid 1px #3452e1;
+  }
+
+  .categoryBtn:hover {
+    background-color: #3452e1;
+    color: white;
+    border: solid 1px white;
+  }
+
+  .clearBtn {
+      color: red;
+  }
+
+  .clearBtn:hover {
+    background-color: red;
+    color: white;
+    border: solid 1px white;
+  }
